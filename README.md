@@ -1,5 +1,21 @@
 # MyTensor
-I have perform transfer learning from SSD_Inception_v2 coco model. My objective is to create a new model which is made light weight and able to run on raspberrypi.
+I have perform transfer learning from SSD_Inception_v2 coco model.<br>
+
+My objective is use custom dataset from OpenImage to create a custom model for my own used.<br>
+
+# Steps
+1.)<br>
+I have chosen human body as my custom datasets.<br>
+All the custom image label and xml are produced and uploaded to Google Drive.<br>
+Run xml_to_csv.py:<br>
+Generate train and test dataset CSV.<br>
+
+2.)<br>
+Run generate_tfrecord.py:<br>
+This CSV is used to generate tensorflow record afterwards (TFRecord)<br>
+
+Two files above can be found in link below:<br>
+https://github.com/BoulevardOfDreams/object_detection_demo
 
 In this learning journey, i have been following guides from <br>
 https://github.com/tensorflow/models/blob/master/research/object_detection
