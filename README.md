@@ -7,12 +7,30 @@ My objective is use custom dataset from OpenImage to create a custom model for m
 1.)<br>
 I have chosen human body as my custom datasets.<br>
 All the custom image label and xml are produced and uploaded to Google Drive.<br>
+
+2.)<br>
 Run xml_to_csv.py:<br>
 Generate train and test dataset CSV.<br>
 
-2.)<br>
 Run generate_tfrecord.py:<br>
 This CSV is used to generate tensorflow record afterwards (TFRecord)<br>
+<br>
+Note: tfrecord files are binary that are optimized for faster processing, not human       readable.<br>
+
+Generate labelmap.pbtxt<br>
+This shows number of class to be trained. (Currently, only 1 class : human body)<br>
+
+3.)<br>
+Download SSD_inception_v2.config<br>
+<br>
+Configure as follows:<br>
+batch_size  = 12<br>
+num_classes = 1<br>
+num_steps   = 2000<br>
+
+4.)<br>
+Run the training<br>
+<br>
 
 Two files above can be found in link below:<br>
 https://github.com/BoulevardOfDreams/object_detection_demo
