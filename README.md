@@ -3,6 +3,35 @@ I have perform transfer learning from SSD_Inception_v2 coco model.<br>
 
 My objective is use custom dataset from OpenImage to create a custom model for my own used.<br>
 
+# Train environment and model details
+Version:<br>
+Tensorflow version 1.x
+
+Github repository:<br>
+https://github.com/tensorflow/models.git
+
+Dataset source:<br>
+Google open image<br>
+https://storage.googleapis.com/openimages/web/index.html
+
+Training Object:<br>
+Human Body 
+
+Train label/Test label:<br>
+oid_to_pascal_voc_xml.py
+
+Model:<br>
+SSD_Inception_v2 (from model zoo)
+
+Config file:<br>
+ssd_inception_v2_coco.config
+
+Parameter:<br>
+batch_size  = 32
+num_classes = 1
+num_steps   = 2000
+<br>
+
 # Graphs and Histogram (From Tensorboard)
 Due to time constraint, I have set the training steps to around 1512 steps (7 hour 16 mins)
 
@@ -56,31 +85,3 @@ In this learning journey, i have been following guides from <br>
 https://github.com/tensorflow/models/blob/master/research/object_detection
 
 I have converted this model to tflite file and run it on an mobile application.
-
-# Train environment and model details
-Version:<br>
-Tensorflow version 1.x
-
-Github repository:<br>
-https://github.com/tensorflow/models.git
-
-Dataset source:<br>
-Google open image<br>
-https://storage.googleapis.com/openimages/web/index.html
-
-Training Object:<br>
-Human Body 
-
-Train label/Test label:<br>
-oid_to_pascal_voc_xml.py
-
-Model:<br>
-SSD_Inception_v2 (from model zoo)
-
-Config file:<br>
-ssd_inception_v2_coco.config
-
-Parameter:<br>
-batch_size  = 12
-num_classes = 1
-num_steps   = 2000
