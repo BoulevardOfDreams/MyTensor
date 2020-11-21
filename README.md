@@ -69,13 +69,13 @@ batch_size  = 12
 num_classes = 1
 num_steps   = 2000
 # Graphs and Histogram (From Tensorboard)
-Due to time constraint, I have set the training steps to around 480 steps
+Due to time constraint, I have set the training steps to around 1512 steps (7 hour 16 mins)
 
 **Learning Rate**
-![LearningRate](https://user-images.githubusercontent.com/42071698/99871135-18fa7500-2c13-11eb-9146-e80b1659e1a9.JPG)
+![LearningRate](https://user-images.githubusercontent.com/42071698/99879225-56c4c100-2c46-11eb-979b-0b1190f80701.JPG)
 
 **Loss/Steps**
-![TotalLoss](https://user-images.githubusercontent.com/42071698/99871008-4561c180-2c12-11eb-9423-ee4c5c870363.png)
+![TotalLoss](https://user-images.githubusercontent.com/42071698/99879221-5298a380-2c46-11eb-9210-e081a93473a8.JPG)
 
 # Results of detection
 ![result1](https://user-images.githubusercontent.com/42071698/99287169-de8c8300-2874-11eb-823c-c2699d615ddb.JPG)
