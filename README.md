@@ -72,7 +72,7 @@ num_steps   = 2000
 Due to time constraint, I have set the training steps to around 1512 steps (7 hour 16 mins)
 
 **Learning Rate**
-![LearningRate](https://user-images.githubusercontent.com/42071698/99879225-56c4c100-2c46-11eb-979b-0b1190f80701.JPG)
+![LearningRate](https://user-images.githubusercontent.com/42071698/99879266-b28f4a00-2c46-11eb-8ecb-181a09fbb854.JPG)
 
 **Loss/Steps**
 ![TotalLoss](https://user-images.githubusercontent.com/42071698/99879221-5298a380-2c46-11eb-9210-e081a93473a8.JPG)
