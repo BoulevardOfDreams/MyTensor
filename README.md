@@ -3,6 +3,8 @@ I have perform transfer learning from SSD_Inception_v2 coco model.<br>
 
 My objective is use custom dataset from OpenImage to create a custom model for my own used.<br>
 
+I have used custom dataset downloaded from OpenImage for training.<br>
+
 # Train environment and model details
 Version:<br>
 Tensorflow version 1.x
