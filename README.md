@@ -20,8 +20,8 @@ Note: tfrecord files are binary that are optimized for faster processing, not hu
 **Generate labelmap.pbtxt**<br>
 This shows number of class to be trained. (Currently, only 1 class : human body)<br>
 
-3.)<br>
-Download **SSD_inception_v2.config**<br>
+3.)
+**Download SSD_inception_v2.config**<br>
 Adding Train and test record file generated previously.
 
 **Configure as follows:**<br>
@@ -29,7 +29,7 @@ batch_size  = 12<br>
 num_classes = 1<br>
 num_steps   = 2000<br>
 
-4.)<br>
+4.)
 **Run the training**<br>
 <br>
 
@@ -68,6 +68,14 @@ Parameter:<br>
 batch_size  = 12
 num_classes = 1
 num_steps   = 2000
+# Graphs and Histogram (From Tensorboard)
+Due to time constraint, I have set the training steps to around 480 steps
+
+**Learning Rate**
+![LearningRate](https://user-images.githubusercontent.com/42071698/99871135-18fa7500-2c13-11eb-9146-e80b1659e1a9.JPG)
+
+**Loss/Steps**
+![TotalLoss](https://user-images.githubusercontent.com/42071698/99871008-4561c180-2c12-11eb-9423-ee4c5c870363.png)
 
 # Results of detection
 ![result1](https://user-images.githubusercontent.com/42071698/99287169-de8c8300-2874-11eb-823c-c2699d615ddb.JPG)
