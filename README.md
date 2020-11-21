@@ -3,6 +3,22 @@ I have perform transfer learning from SSD_Inception_v2 coco model.<br>
 
 My objective is use custom dataset from OpenImage to create a custom model for my own used.<br>
 
+# Graphs and Histogram (From Tensorboard)
+Due to time constraint, I have set the training steps to around 1512 steps (7 hour 16 mins)
+
+**Learning Rate**
+![LearningRate](https://user-images.githubusercontent.com/42071698/99879266-b28f4a00-2c46-11eb-8ecb-181a09fbb854.JPG)
+
+**Loss/Steps**
+![TotalLoss](https://user-images.githubusercontent.com/42071698/99879221-5298a380-2c46-11eb-9210-e081a93473a8.JPG)
+
+# Results of detection
+![result1](https://user-images.githubusercontent.com/42071698/99287169-de8c8300-2874-11eb-823c-c2699d615ddb.JPG)
+![result2](https://user-images.githubusercontent.com/42071698/99287184-e4826400-2874-11eb-8161-80694b1c19b9.JPG)
+![result3](https://user-images.githubusercontent.com/42071698/99287191-e64c2780-2874-11eb-96aa-e26c61ccdbcf.JPG)
+![result4](https://user-images.githubusercontent.com/42071698/99287194-e77d5480-2874-11eb-8e21-8ebbe4e6c2c6.JPG)
+![result5](https://user-images.githubusercontent.com/42071698/99287197-e8ae8180-2874-11eb-8f3b-1461a91ba5ad.JPG)
+
 # Steps
 1.) <br>
 I have chosen human body as my custom datasets.<br>
@@ -68,18 +84,3 @@ Parameter:<br>
 batch_size  = 12
 num_classes = 1
 num_steps   = 2000
-# Graphs and Histogram (From Tensorboard)
-Due to time constraint, I have set the training steps to around 1512 steps (7 hour 16 mins)
-
-**Learning Rate**
-![LearningRate](https://user-images.githubusercontent.com/42071698/99879266-b28f4a00-2c46-11eb-8ecb-181a09fbb854.JPG)
-
-**Loss/Steps**
-![TotalLoss](https://user-images.githubusercontent.com/42071698/99879221-5298a380-2c46-11eb-9210-e081a93473a8.JPG)
-
-# Results of detection
-![result1](https://user-images.githubusercontent.com/42071698/99287169-de8c8300-2874-11eb-823c-c2699d615ddb.JPG)
-![result2](https://user-images.githubusercontent.com/42071698/99287184-e4826400-2874-11eb-8161-80694b1c19b9.JPG)
-![result3](https://user-images.githubusercontent.com/42071698/99287191-e64c2780-2874-11eb-96aa-e26c61ccdbcf.JPG)
-![result4](https://user-images.githubusercontent.com/42071698/99287194-e77d5480-2874-11eb-8e21-8ebbe4e6c2c6.JPG)
-![result5](https://user-images.githubusercontent.com/42071698/99287197-e8ae8180-2874-11eb-8f3b-1461a91ba5ad.JPG)
